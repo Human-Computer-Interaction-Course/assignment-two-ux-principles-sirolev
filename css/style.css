@@ -85,8 +85,16 @@ img {
 }
 
 .tab {
-    max-width: 85%;
+    max-width: 100%;
     margin: auto;
+}
+
+.w_small {
+    max-width: 85%;
+}
+
+.w_tiny {
+    max-width: 50%;
 }
 
 .tab-head {
@@ -114,24 +122,10 @@ img {
     padding-bottom: 10px;
 }
 
-ul {
-    padding-left: 0.5em;
-}
-
-ul li {
-    list-style-position: outside;
-    margin-left: 1em;
-    padding-top: 10px;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.bold {
-    font-weight:200;
-}
-
 .padding-top {
     padding-top: 10px;
+}
+
+.spacer {
+    height: 100px;
 }
